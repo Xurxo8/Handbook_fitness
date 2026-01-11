@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handbook fitness</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/exercicios.css">
+</head>
+<body>
+  <!-- CABECEIRA -->
+  <nav>
+    <a href="./index.html">
+      <img id="logo" id="icono" src="./img/sinFondo/Logo_sinFondo.png" alt="icono">
+    </a>
+
+    <ul id="menu">
+      <li><a href="./exercicicos.html">Exercicios</a></li>
+      <li><a href="./flexibilidade.html">Flexibilidade</a></li>
+      <li><a href="./nutricion.html">Nutricion</a></li>
+      <li><a href="./rutinas.html">Rutinas</a></li>
+      <li><a href="./calculadoras.html">Calculadoras</a></li>
+    </ul>
+  </nav>
+
+  <!-- CONTIDO DA PAXINA -->
+  <section id="listaMusculos">
+    <h2>Grupos musculares</h2>
+
+    <!-- Cargar os exercicios dinamicamente con JS e Jquery -->
+    <div class="grupoMuscular" id="peito">
+      <img src="./img/resaltado/Pectoral.png" alt="peito">
+
+      <!-- Info sobre o gupo muscular -->
+      <div class="datosGrupoMuscular">
+        <h3>Pectoral <img src="./img/iconos/interrogante-solid-full.svg" alt="interrogante"></h3>
+
+        <!-- Taboa coa información sobre o vuolumen -->
+        <table>
+          <caption>Número de series por semana</caption>
+          <thead>
+            <tr>
+              <th rowspan="2">Minimo <br> mantenimiento</th>
+              <th colspan="2">Volumen optimo</th>
+              <th rowspan="2">Maximo <br> recuperable</th>
+              <th rowspan="2">Frecuencia <br> dias</th>
+              <th rowspan="2">Repeticiones</th>
+            </tr>
+            <tr>
+              <th>Minimo efectivo</th>
+              <th>Máximo adaptativo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>10</td>
+              <td>14</td>
+              <td>22</td>
+              <td>25</td>
+              <td>2 - 4</td>
+              <td>8 - 12</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="grupoMuscular" id="ombros"> <!-- Segun a RAG é ombro ou ombreiro -->
+      <img src="./img/resaltado/Ombros.png" alt="ombro">
+    </div>
+
+    <div class="grupoMuscular" id="biceps">
+      <img src="./img/resaltado/Biceps.png" alt="biceps">
+    </div>
+
+    <div class="grupoMuscular" id="triceps">
+      <img src="./img/resaltado/Triceps.png" alt="">
+    </div>
+
+    <div class="grupoMuscular" id="pernaFrontal">
+      <img src="./img/sinFondo/PernaFrontal_sinFondo.png" alt="">
+    </div>
+    <div class="grupoMuscular" id="pernaPosterior">
+      <img src="./img/sinFondo/PernaPosterior_sinFrondo.png" alt="">
+    </div>
+  </section>
+
+  <!-- PE PAXINA -->
+  <footer>
+    
+  </footer>
+</body>
+</html>
